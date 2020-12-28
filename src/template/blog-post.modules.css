@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+
+body {
+  background-color: #f5f4f4;
+}
+
+.main {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.img {
+  width: 50%;
+  border: 2px solid #ccc;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.text {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: justify;
+  box-shadow: 5px 10px 8px #888888;
+  font-family: "Langar", cursive;
+}
+
+.author {
+  font-style: italic;
+}
+
+.title {
+  font-family: "Redressed", cursive;
+}
+
+.list :hover {
+  cursor: pointer;
+}
+
+.heading {
+  padding-top: 15px;
+  font-family: "Redressed", cursive;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+  }
+  .heading {
+    width: 60%;
+  }
+}
