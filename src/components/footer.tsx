@@ -13,7 +13,7 @@ export default () => {
         backgroundColor: "#b0b8b3",
         height: "130px",
         position: "relative",
-        bottom: "0",
+        top: "40px",
         width: "100%",
       }}
     >
@@ -62,7 +62,9 @@ export default () => {
           alignItems: "center",
         }}
       >
-        <h4 style={{ color: "white" }}>DEVELOPED BY MUHAMMAD SAMI TARIQ</h4>
+        <h4 style={{ color: "white", textAlign: "center" }}>
+          DEVELOPED BY MUHAMMAD SAMI TARIQ
+        </h4>
       </div>
     </div>
   )
